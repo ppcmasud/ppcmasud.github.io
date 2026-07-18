@@ -1,0 +1,1057 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PPC Masud | Google Ads Specialist for HVAC Contractors</title>
+<meta name="description" content="Masud Rana (PPC Masud) is a Google Ads, GA4 & GTM certified specialist helping HVAC, plumbing, roofing and electrical contractors turn ad spend into booked service calls across the USA, Canada, Australia & UK." />
+<meta name="keywords" content="Google Ads Specialist, Google Ads Expert, PPC Specialist, Google Ads Management, Google Ads Consultant, Lead Generation Specialist, Google Ads Audit, Performance Max Specialist, Google Ads for HVAC, Google Ads for Home Service Businesses, GA4, GTM" />
+<meta name="author" content="Masud Rana" />
+<link rel="canonical" href="https://ppcmasud.github.io/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="PPC Masud | Google Ads Specialist for HVAC Contractors" />
+<meta property="og:description" content="Search Ads, Performance Max, Conversion Tracking and GA4/GTM setup for HVAC & home-service contractors — built around booked service calls, not clicks." />
+<meta property="og:url" content="https://ppcmasud.github.io/" />
+<meta property="og:image" content="profile.png" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<!-- Favicon: inline SVG wordmark initial, styled to accent color -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230E1B24'/%3E%3Ctext x='32' y='43' font-family='Arial, sans-serif' font-size='34' font-weight='700' fill='%23E0985A' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet" />
+
+<style>
+  /* =========================================================
+     TOKENS
+  ========================================================= */
+  :root {
+    --ink-base: #0E1B24;
+    --ink-raised: #142530;
+    --ink-raised-2: #1A2E3B;
+    --line: rgba(244,239,228,0.10);
+    --line-strong: rgba(244,239,228,0.20);
+
+    --paper: #F4EFE4;
+    --paper-dim: #E7E0D0;
+
+    --text-hi: #F4EFE4;
+    --text-mid: rgba(244,239,228,0.72);
+    --text-low: rgba(244,239,228,0.48);
+
+    --copper: #C97C3D;
+    --copper-hi: #E0985A;
+    --flame: #3E7CFF;
+    --signal: #2E9E6C;
+    --alert: #D65B5B;
+
+    --g-blue: #4285F4; --g-yellow: #FBBC04; --g-green: #34A853; --g-red: #EA4335;
+
+    --radius-card: 18px;
+    --radius-sm: 10px;
+    --font-display: 'Space Grotesk', sans-serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+  }
+
+  /* =========================================================
+     RESET / BASE
+  ========================================================= */
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    * { animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; }
+  }
+  body {
+    margin: 0;
+    background: var(--ink-base);
+    color: var(--text-hi);
+    font-family: var(--font-body);
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+    opacity: 0;
+    animation: pageFade 0.6s ease forwards;
+  }
+  @keyframes pageFade { to { opacity: 1; } }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  h1, h2, h3 { font-family: var(--font-display); color: var(--text-hi); margin: 0; line-height: 1.15; }
+  p { color: var(--text-mid); margin: 0; }
+  ul { margin: 0; padding: 0; list-style: none; }
+  button { font-family: inherit; cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--copper-hi); outline-offset: 3px; }
+
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+  .eyebrow {
+    font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 0.09em; text-transform: uppercase;
+    color: var(--copper-hi); font-weight: 600;
+  }
+  section { padding: 88px 0; position: relative; }
+  .section-head { max-width: 640px; margin-bottom: 48px; }
+  .section-head h2 { font-size: clamp(26px, 3.4vw, 38px); margin-top: 14px; margin-bottom: 16px; }
+  .section-head p { font-size: 16px; }
+
+  [data-reveal] { opacity: 0; transform: translateY(18px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  [data-reveal].in { opacity: 1; transform: translateY(0); }
+
+  .btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 14px 26px; border-radius: 999px; font-weight: 600; font-size: 15px;
+    border: 1px solid transparent; transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    white-space: nowrap;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-copper { background: linear-gradient(180deg, var(--copper-hi), var(--copper)); color: #1A0F05; box-shadow: 0 10px 24px rgba(201,124,61,0.28); }
+  .btn-copper:hover { box-shadow: 0 14px 30px rgba(201,124,61,0.38); }
+  .btn-ghost { background: rgba(244,239,228,0.04); border-color: var(--line-strong); color: var(--text-hi); }
+  .btn-ghost:hover { background: rgba(244,239,228,0.08); }
+  .btn-signal { background: var(--signal); color: #06170F; }
+
+  /* =========================================================
+     NAVBAR
+  ========================================================= */
+  header#navbar { position: fixed; top: 0; inset-inline: 0; z-index: 100; padding: 18px 0; transition: padding 0.25s ease; }
+  header#navbar.scrolled { padding: 10px 0; }
+  #navbar-inner { max-width: 1180px; margin: 0 auto; padding: 0 20px; }
+  #navbar-pill {
+    display: flex; align-items: center; justify-content: space-between;
+    background: rgba(14,27,36,0.72); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    border: 1px solid var(--line); border-radius: 999px; padding: 10px 12px 10px 22px;
+    transition: background 0.25s ease;
+  }
+  header#navbar.scrolled #navbar-pill { background: rgba(14,27,36,0.92); border-color: var(--line-strong); }
+  .wordmark { font-family: var(--font-display); font-weight: 700; font-size: 18px; letter-spacing: -0.01em; }
+  .wordmark span { color: var(--copper-hi); }
+  #nav-links { display: flex; align-items: center; gap: 26px; }
+  #nav-links a { font-size: 14.5px; font-weight: 500; color: var(--text-mid); transition: color 0.15s ease; }
+  #nav-links a:hover { color: var(--text-hi); }
+  #nav-cta { display: flex; align-items: center; gap: 10px; }
+  #nav-cta .btn { padding: 10px 20px; font-size: 14px; }
+  #mobile-toggle {
+    display: none; width: 42px; height: 42px; border-radius: 999px; border: 1px solid var(--line-strong);
+    background: rgba(244,239,228,0.04); color: var(--text-hi); align-items: center; justify-content: center;
+  }
+  #mobile-toggle svg { width: 18px; height: 18px; }
+  #mobile-menu {
+    display: none; max-height: 0; overflow: hidden; margin-top: 10px; border-radius: 20px;
+    border: 1px solid var(--line); background: rgba(14,27,36,0.96); backdrop-filter: blur(14px);
+    transition: max-height 0.3s ease, padding 0.3s ease;
+  }
+  #mobile-menu.open { max-height: 520px; padding: 10px; }
+  #mobile-menu a { display: block; padding: 13px 14px; font-size: 15px; font-weight: 500; border-radius: 12px; color: var(--text-hi); }
+  #mobile-menu a:hover { background: rgba(244,239,228,0.06); }
+  #mobile-menu .mm-ctas { display: flex; flex-direction: column; gap: 10px; padding: 10px; }
+
+  @media (max-width: 880px) {
+    #nav-links, #nav-cta { display: none; }
+    #mobile-toggle { display: inline-flex; }
+    #mobile-menu { display: block; }
+  }
+
+  /* =========================================================
+     HERO
+  ========================================================= */
+  #top { padding-top: 152px; padding-bottom: 70px; overflow: hidden; }
+  #hero.blueprint-grid {
+    background-image:
+      linear-gradient(rgba(244,239,228,0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(244,239,228,0.035) 1px, transparent 1px);
+    background-size: 42px 42px;
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 30%, #000 40%, transparent 90%);
+            mask-image: radial-gradient(ellipse 80% 60% at 50% 30%, #000 40%, transparent 90%);
+  }
+  .hero-grid { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px; align-items: center; }
+  .hero-eyebrow-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 20px; }
+  .status-chip {
+    display: inline-flex; align-items: center; gap: 8px; font-family: var(--font-mono); font-size: 12px;
+    padding: 7px 13px; border-radius: 999px; background: rgba(46,158,108,0.12); border: 1px solid rgba(46,158,108,0.35); color: #8FE0BA;
+  }
+  .status-dot { width: 7px; height: 7px; border-radius: 999px; background: var(--signal); box-shadow: 0 0 0 3px rgba(46,158,108,0.25); }
+  .hero-h1 { font-size: clamp(32px, 4.6vw, 52px); font-weight: 700; letter-spacing: -0.01em; max-width: 15ch; }
+  .hero-h1 .accent { color: var(--copper-hi); }
+  .hero-desc { font-size: 17px; max-width: 46ch; margin-top: 20px; }
+  .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 30px; }
+  .hero-stats-row { display: flex; gap: 34px; margin-top: 42px; flex-wrap: wrap; }
+  .hero-stat .num { font-family: var(--font-display); font-weight: 700; font-size: 19px; color: var(--text-hi); }
+  .hero-stat .lbl { font-size: 12.5px; color: var(--text-low); margin-top: 4px; }
+
+  .hero-visual { position: relative; }
+  .ticket {
+    background: var(--ink-raised); border: 1px solid var(--line-strong); border-radius: var(--radius-card);
+    padding: 22px; box-shadow: 0 30px 60px rgba(0,0,0,0.35);
+  }
+  .ticket-head { display: flex; align-items: flex-start; justify-content: space-between; padding-bottom: 16px; border-bottom: 1px dashed var(--line-strong); }
+  .job-no { font-family: var(--font-mono); font-size: 11px; color: var(--text-low); letter-spacing: 0.04em; }
+  .job-title { font-family: var(--font-display); font-weight: 600; font-size: 16px; margin-top: 4px; }
+  .ticket-status { font-family: var(--font-mono); font-size: 12px; color: var(--signal); }
+  .ad-mock { background: var(--ink-base); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 16px; margin-top: 16px; }
+  .ad-tag { display: inline-block; font-family: var(--font-mono); font-size: 10.5px; font-weight: 600; color: var(--ink-base); background: var(--paper); padding: 2px 7px; border-radius: 4px; }
+  .ad-url { font-size: 12.5px; color: var(--signal); margin-top: 9px; }
+  .ad-headline { font-family: var(--font-display); font-size: 15.5px; font-weight: 600; color: var(--flame); margin-top: 6px; }
+  .ad-desc { font-size: 13px; color: var(--text-mid); margin-top: 5px; }
+  .ticket-metrics { display: grid; grid-template-columns: repeat(3,1fr); gap: 8px; margin-top: 16px; }
+  .m-item { background: rgba(244,239,228,0.03); border: 1px solid var(--line); border-radius: 10px; padding: 10px 6px; text-align: center; }
+  .m-num { font-family: var(--font-display); font-weight: 700; font-size: 15px; }
+  .m-lbl { font-size: 10.5px; color: var(--text-low); margin-top: 2px; }
+  .ticket-footer { display: flex; align-items: center; justify-content: space-between; margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--line-strong); font-size: 12px; }
+  .ticket-footer .assigned { color: var(--text-mid); }
+  .ticket-footer .job-no { color: var(--signal); }
+
+  .floater-badge {
+    position: absolute; display: flex; align-items: center; gap: 8px; background: var(--ink-raised-2);
+    border: 1px solid var(--line-strong); border-radius: 999px; padding: 9px 16px; font-size: 12.5px; font-weight: 600;
+    box-shadow: 0 14px 30px rgba(0,0,0,0.3); animation: floaty 4.5s ease-in-out infinite;
+  }
+  .floater-1 { top: -18px; left: -14px; }
+  .floater-2 { bottom: -16px; right: -10px; animation-delay: 1.4s; }
+  @keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+
+  /* =========================================================
+     TRUST
+  ========================================================= */
+  #trust { padding: 46px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .trust-label { text-align: center; font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-low); margin-bottom: 24px; }
+  .trust-marquee { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+  .trust-track { display: flex; gap: 14px; width: max-content; animation: marquee 26s linear infinite; }
+  @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  .cert-badge { display: flex; align-items: center; gap: 10px; background: var(--ink-raised); border: 1px solid var(--line); border-radius: 999px; padding: 10px 18px; white-space: nowrap; }
+  .cert-dots span { display: inline-block; width: 7px; height: 7px; border-radius: 999px; margin-right: 2px; }
+  .cert-name { font-size: 13.5px; font-weight: 500; color: var(--text-mid); }
+  .trust-note { text-align: center; font-size: 13px; color: var(--text-low); margin-top: 18px; }
+
+  /* =========================================================
+     SERVICES
+  ========================================================= */
+  .svc-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+  .svc-card { background: var(--ink-raised); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 24px; transition: border-color 0.2s ease, transform 0.2s ease; }
+  .svc-card:hover { border-color: var(--line-strong); transform: translateY(-3px); }
+  .svc-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+  .svc-icn { width: 40px; height: 40px; border-radius: 11px; background: rgba(201,124,61,0.14); display: flex; align-items: center; justify-content: center; font-size: 18px; }
+  .svc-tag { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.06em; color: var(--copper-hi); background: rgba(201,124,61,0.1); padding: 3px 8px; border-radius: 5px; }
+  .svc-card h3 { font-size: 16.5px; margin-bottom: 8px; }
+  .svc-card p { font-size: 13.5px; }
+
+  /* =========================================================
+     WHY CHOOSE ME
+  ========================================================= */
+  .why-grid { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 60px; align-items: start; }
+  .why-photo { position: relative; aspect-ratio: 1/1; border-radius: 22px; overflow: hidden; border: 1px solid var(--line-strong); background: var(--ink-raised); }
+  .why-photo img { width: 100%; height: 100%; object-fit: cover; }
+  .why-photo-badge { margin-top: 16px; font-size: 13.5px; color: var(--text-mid); text-align: center; }
+  .why-points { display: flex; flex-direction: column; gap: 26px; margin-top: 28px; }
+  .why-point { display: flex; gap: 18px; }
+  .wp-num { font-family: var(--font-mono); font-size: 13px; color: var(--copper-hi); padding-top: 3px; flex-shrink: 0; }
+  .why-point h3 { font-size: 16.5px; margin-bottom: 6px; }
+  .why-point p { font-size: 14px; }
+
+  /* =========================================================
+     RESULTS
+  ========================================================= */
+  #results { background: var(--ink-raised); }
+  .results-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+  .result-card { background: var(--ink-base); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 26px; text-align: center; }
+  .result-num { font-family: var(--font-display); font-weight: 700; font-size: 26px; color: var(--copper-hi); }
+  .result-lbl { font-size: 13px; color: var(--text-mid); margin-top: 8px; }
+  .disclaimer-note { display: flex; align-items: flex-start; gap: 8px; font-size: 12.5px; color: var(--text-low); margin-top: 26px; }
+  .disclaimer-note svg { flex-shrink: 0; margin-top: 2px; }
+
+  /* =========================================================
+     PROCESS
+  ========================================================= */
+  .process-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; }
+  .process-card { background: var(--ink-raised); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 24px; position: relative; }
+  .process-num { font-family: var(--font-display); font-weight: 700; font-size: 30px; color: rgba(224,152,90,0.28); }
+  .process-card h3 { font-size: 16px; margin: 10px 0 8px; }
+  .process-card p { font-size: 13.5px; }
+
+  /* =========================================================
+     CASE STUDIES
+  ========================================================= */
+  #case-studies { background: var(--ink-raised); }
+  .cs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+  .cs-card { background: var(--ink-base); border: 1px dashed var(--line-strong); border-radius: var(--radius-card); padding: 26px; }
+  .cs-tag { font-family: var(--font-mono); font-size: 11px; color: var(--copper-hi); background: rgba(201,124,61,0.1); padding: 3px 9px; border-radius: 5px; }
+  .cs-card h3 { font-size: 16px; margin: 14px 0 8px; }
+  .cs-card p { font-size: 13.5px; }
+  .cs-placeholder { font-size: 12.5px; color: var(--text-low); font-style: italic; margin-top: 12px; }
+
+  /* =========================================================
+     TESTIMONIALS
+  ========================================================= */
+  .testi-wrap { position: relative; max-width: 720px; margin: 0 auto; }
+  .testi-track { overflow: hidden; }
+  .testi-slides { display: flex; transition: transform 0.4s ease; }
+  .testi-slide { flex: 0 0 100%; background: var(--ink-raised); border: 1px dashed var(--line-strong); border-radius: var(--radius-card); padding: 34px; text-align: center; }
+  .testi-quote { font-family: var(--font-display); font-size: 18px; color: var(--text-hi); max-width: 46ch; margin: 0 auto; }
+  .testi-name { font-size: 13.5px; color: var(--copper-hi); margin-top: 18px; font-weight: 600; }
+  .testi-role { font-size: 12.5px; color: var(--text-low); margin-top: 2px; }
+  .testi-nav { display: flex; align-items: center; justify-content: center; gap: 18px; margin-top: 22px; }
+  .testi-arrow { width: 40px; height: 40px; border-radius: 999px; border: 1px solid var(--line-strong); background: rgba(244,239,228,0.04); display: flex; align-items: center; justify-content: center; color: var(--text-hi); }
+  .testi-arrow:hover { background: rgba(244,239,228,0.08); }
+  .testi-dots { display: flex; gap: 8px; }
+  .testi-dot { width: 8px; height: 8px; border-radius: 999px; background: var(--line-strong); border: none; padding: 0; }
+  .testi-dot.active { background: var(--copper-hi); }
+
+  /* =========================================================
+     FAQ
+  ========================================================= */
+  .faq-list { max-width: 780px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+  .faq-item { background: var(--ink-raised); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+  .faq-q { width: 100%; text-align: left; background: none; border: none; color: var(--text-hi); padding: 20px 22px; display: flex; align-items: center; justify-content: space-between; gap: 16px; font-size: 15.5px; font-weight: 600; font-family: var(--font-body); }
+  .faq-q .faq-plus { flex-shrink: 0; width: 22px; height: 22px; position: relative; }
+  .faq-q .faq-plus::before, .faq-q .faq-plus::after { content: ''; position: absolute; background: var(--copper-hi); border-radius: 2px; transition: transform 0.25s ease, opacity 0.25s ease; }
+  .faq-q .faq-plus::before { width: 100%; height: 2px; top: 50%; left: 0; transform: translateY(-50%); }
+  .faq-q .faq-plus::after { height: 100%; width: 2px; left: 50%; top: 0; transform: translateX(-50%); }
+  .faq-item.open .faq-plus::after { opacity: 0; transform: translateX(-50%) rotate(90deg); }
+  .faq-a { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+  .faq-a p { padding: 0 22px 20px; font-size: 14.5px; }
+  .faq-item.open .faq-a { max-height: 320px; }
+
+  /* =========================================================
+     CONTACT
+  ========================================================= */
+  .contact-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 40px; align-items: start; }
+  .contact-card { background: var(--ink-raised); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 30px; }
+  .contact-row { display: flex; align-items: center; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .contact-row:last-child { border-bottom: none; }
+  .contact-icn { width: 38px; height: 38px; border-radius: 10px; background: rgba(201,124,61,0.14); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .contact-lbl { font-size: 11.5px; color: var(--text-low); text-transform: uppercase; letter-spacing: 0.04em; }
+  .contact-val { font-size: 14.5px; font-weight: 600; color: var(--text-hi); word-break: break-word; }
+  .zcal-frame-wrap { background: var(--ink-raised); border: 1px solid var(--line); border-radius: var(--radius-card); padding: 6px; min-height: 480px; }
+  .zcal-inline-widget { min-height: 470px; }
+
+  /* =========================================================
+     FOOTER
+  ========================================================= */
+  footer { border-top: 1px solid var(--line); padding: 52px 0 110px; }
+  .footer-top { display: flex; justify-content: space-between; gap: 40px; flex-wrap: wrap; }
+  .footer-tagline { font-size: 13.5px; color: var(--text-low); max-width: 34ch; margin-top: 10px; }
+  .footer-links { display: flex; gap: 40px; flex-wrap: wrap; }
+  .footer-col h4 { font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-low); margin-bottom: 14px; }
+  .footer-col a, .footer-col span { display: block; font-size: 14px; color: var(--text-mid); padding: 5px 0; }
+  .footer-col a:hover { color: var(--text-hi); }
+  .footer-social { display: flex; gap: 10px; margin-top: 14px; }
+  .fs-icn { width: 36px; height: 36px; border-radius: 999px; border: 1px solid var(--line-strong); display: flex; align-items: center; justify-content: center; }
+  .fs-icn:hover { background: rgba(244,239,228,0.06); }
+  .footer-bottom { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--text-low); }
+
+  /* =========================================================
+     STICKY WHATSAPP + MOBILE BAR
+  ========================================================= */
+  #wa-float {
+    position: fixed; right: 22px; bottom: 22px; z-index: 90; width: 58px; height: 58px; border-radius: 999px;
+    background: var(--signal); display: flex; align-items: center; justify-content: center; box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+    transition: transform 0.15s ease;
+  }
+  #wa-float:hover { transform: translateY(-3px) scale(1.04); }
+  #wa-float svg { width: 28px; height: 28px; }
+
+  #mobile-cta-bar {
+    display: none; position: fixed; left: 0; right: 0; bottom: 0; z-index: 80; padding: 12px 84px 12px 14px;
+    background: rgba(14,27,36,0.96); border-top: 1px solid var(--line-strong); backdrop-filter: blur(10px);
+  }
+  #mobile-cta-bar .btn { width: 100%; justify-content: center; }
+  @media (max-width: 720px) {
+    #mobile-cta-bar { display: block; }
+    #wa-float { right: 14px; bottom: 78px; width: 50px; height: 50px; }
+    #wa-float svg { width: 24px; height: 24px; }
+  }
+
+  /* =========================================================
+     RESPONSIVE
+  ========================================================= */
+  @media (max-width: 980px) {
+    .hero-grid { grid-template-columns: 1fr; }
+    .hero-visual { max-width: 460px; margin: 0 auto; order: -1; }
+    .svc-grid { grid-template-columns: repeat(2, 1fr); }
+    .results-grid { grid-template-columns: repeat(2, 1fr); }
+    .process-grid { grid-template-columns: repeat(2, 1fr); }
+    .cs-grid { grid-template-columns: 1fr; }
+    .why-grid { grid-template-columns: 1fr; }
+    .why-photo { max-width: 320px; margin: 0 auto; }
+    .contact-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 560px) {
+    section { padding: 64px 0; }
+    #top { padding-top: 128px; padding-bottom: 40px; }
+    .svc-grid { grid-template-columns: 1fr; }
+    .results-grid { grid-template-columns: 1fr 1fr; }
+    .process-grid { grid-template-columns: 1fr; }
+    .hero-stats-row { gap: 24px; }
+    .footer-top { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     NAVBAR
+============================================================ -->
+<header id="navbar">
+  <div id="navbar-inner">
+    <div id="navbar-pill">
+      <a href="#top" class="wordmark">PPC <span>Masud</span></a>
+
+      <nav id="nav-links">
+        <a href="#services">Services</a>
+        <a href="#why">Why Me</a>
+        <a href="#results">Results</a>
+        <a href="#process">Process</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div id="nav-cta">
+        <a href="https://wa.me/8801316193153?text=Hi%20Masud%2C%20I%27d%20like%20to%20talk%20about%20Google%20Ads%20for%20my%20business."
+           class="btn btn-ghost" target="_blank" rel="noopener" onclick="trackCTA('whatsapp_nav')">WhatsApp</a>
+        <a href="#contact" class="btn btn-copper" onclick="trackCTA('book_audit_nav')">Book Free Audit</a>
+      </div>
+
+      <button id="mobile-toggle" aria-label="Menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div id="mobile-menu">
+      <a href="#services">Services</a>
+      <a href="#why">Why Me</a>
+      <a href="#results">Results</a>
+      <a href="#process">Process</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <div class="mm-ctas">
+        <a href="https://wa.me/8801316193153?text=Hi%20Masud%2C%20I%27d%20like%20to%20talk%20about%20Google%20Ads%20for%20my%20business."
+           class="btn btn-ghost" target="_blank" rel="noopener" onclick="trackCTA('whatsapp_nav_mobile')">Chat on WhatsApp</a>
+        <a href="#contact" class="btn btn-copper" onclick="trackCTA('book_audit_nav_mobile')">Book Free Audit</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================================================
+     HERO
+============================================================ -->
+<section id="top">
+  <div id="hero" class="blueprint-grid">
+    <div class="wrap">
+      <div class="hero-grid">
+
+        <div data-reveal>
+          <div class="hero-eyebrow-row">
+            <span class="status-chip"><span class="status-dot"></span> Booking Q3 audits</span>
+            <span class="eyebrow">HVAC · SEARCH ADS</span>
+          </div>
+
+          <h1 class="hero-h1">Google Ads for HVAC contractors, built around <span class="accent">booked service calls.</span></h1>
+
+          <p class="hero-desc">I run Search Ads and Performance Max for HVAC, plumbing, roofing and electrical businesses, with Conversion Tracking, GTM and GA4 set up correctly from day one — so every lead is tracked and every dollar is measured, not guessed at.</p>
+
+          <div class="hero-actions">
+            <a href="https://wa.me/8801316193153?text=Hi%20Masud%2C%20I%27d%20like%20to%20talk%20about%20Google%20Ads%20for%20my%20business."
+               class="btn btn-copper" target="_blank" rel="noopener" onclick="trackCTA('whatsapp_hero')">Chat on WhatsApp →</a>
+            <a href="#contact" class="btn btn-ghost" onclick="trackCTA('book_audit_hero')">Book a Free Google Ads Audit</a>
+          </div>
+
+          <div class="hero-stats-row">
+            <div class="hero-stat">
+              <div class="num">USA · CA · AU · UK</div>
+              <div class="lbl">Markets Served</div>
+            </div>
+            <div class="hero-stat">
+              <div class="num">100%</div>
+              <div class="lbl">Tracking Verified</div>
+            </div>
+            <div class="hero-stat">
+              <div class="num">HVAC</div>
+              <div class="lbl">Primary Focus</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="floater-badge floater-1">
+            <span>📞</span>
+            <span>+1 service call — 0:42s ago</span>
+          </div>
+
+          <div class="ticket">
+            <div class="ticket-head">
+              <div>
+                <div class="job-no">WORK ORDER #PPCM-0417</div>
+                <div class="job-title">HVAC Search Campaign</div>
+              </div>
+              <span class="ticket-status">● Live</span>
+            </div>
+
+            <div class="ad-mock">
+              <span class="ad-tag">Ad</span>
+              <div class="ad-url">www.yourhvaccompany.com</div>
+              <div class="ad-headline">24/7 Emergency AC Repair — Same-Day Service</div>
+              <div class="ad-desc">Licensed HVAC technicians near you. Free estimate, no overtime fees. Book online in 60 seconds.</div>
+            </div>
+
+            <div class="ticket-metrics">
+              <div class="m-item">
+                <div class="m-num">[STAT]</div>
+                <div class="m-lbl">Search ROAS</div>
+              </div>
+              <div class="m-item">
+                <div class="m-num">$0</div>
+                <div class="m-lbl">Wasted Spend</div>
+              </div>
+              <div class="m-item">
+                <div class="m-num">GA4</div>
+                <div class="m-lbl">Tracking Live</div>
+              </div>
+            </div>
+
+            <div class="ticket-footer">
+              <span class="assigned">Assigned: <b>Masud Rana</b></span>
+              <span class="job-no">GTM ✓ VERIFIED</span>
+            </div>
+          </div>
+
+          <div class="floater-badge floater-2">
+            <span>✅</span>
+            <span>Conversion tracked in GA4</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TRUST / CERTIFICATIONS
+============================================================ -->
+<section id="trust">
+  <div class="wrap">
+    <div class="trust-label" data-reveal>Google Ads &amp; GA4 Certified</div>
+    <div class="trust-marquee" data-reveal>
+      <div class="trust-track" id="trust-track"></div>
+    </div>
+    <p class="trust-note">Credentials verifiable on Google Skillshop.</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     SERVICES
+============================================================ -->
+<section id="services">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Job Categories</span>
+      <h2>Everything a Google Ads account needs to actually produce calls.</h2>
+      <p>No bundled "social media + SEO + ads" packages. Just the Google Ads stack, done correctly, for home-service and clinic businesses.</p>
+    </div>
+
+    <div class="svc-grid">
+      <div class="svc-card" data-reveal>
+        <div class="svc-top"><div class="svc-icn">🔍</div><span class="svc-tag">CORE</span></div>
+        <h3>Google Search Ads</h3>
+        <p>High-intent search campaigns for HVAC and home-service searches — the ones that turn into same-day calls.</p>
+      </div>
+      <div class="svc-card" data-reveal>
+        <div class="svc-top"><div class="svc-icn">📈</div><span class="svc-tag">SCALE</span></div>
+        <h3>Performance Max</h3>
+        <p>PMax layered on top of Search once tracking is solid, so it's optimizing toward real bookings — not vanity clicks.</p>
+      </div>
+      <div class="svc-card" data-reveal>
+        <div class="svc-top"><div class="svc-icn">🎯</div><span class="svc-tag">TRACKING</span></div>
+        <h3>Conversion Tracking</h3>
+        <p>Calls, form fills, and booking clicks tracked as real conversions, so Google's bidding actually learns from them.</p>
+      </div>
+      <div class="svc-card" data-reveal>
+        <div class="svc-top"><div class="svc-icn">🏷️</div><span class="svc-tag">SETUP</span></div>
+        <h3>Google Tag Manager</h3>
+        <p>Clean GTM container setup — no duplicate tags, no broken triggers, nothing quietly double-counting your leads.</p>
+      </div>
+      <div class="svc-card" data-reveal>
+        <div class="svc-top"><div class="svc-icn">📊</div><span class="svc-tag">SETUP</span></div>
+        <h3>GA4 Setup &amp; Reporting</h3>
+        <p>Analytics configured to match your actual funnel, so the reports answer real questions, not just show traffic.</p>
+      </div>
+      <div class="svc-card" data-reveal>
+        <div class="svc-top"><div class="svc-icn">🧾</div><span class="svc-tag">AUDIT</span></div>
+        <h3>Google Ads Audit</h3>
+        <p>A full account review — wasted spend, broken conversions, weak match types — with a plain-English fix list.</p>
+      </div>
+      <div class="svc-card" data-reveal>
+        <div class="svc-top"><div class="svc-icn">🖥️</div><span class="svc-tag">REVIEW</span></div>
+        <h3>CRO &amp; Landing Page Review</h3>
+        <p>Your ad can be perfect and still lose the job at the landing page — reviewed for speed, clarity, and call-to-action.</p>
+      </div>
+      <div class="svc-card" data-reveal>
+        <div class="svc-top"><div class="svc-icn">📍</div><span class="svc-tag">ONGOING</span></div>
+        <h3>Local / Geo-Targeted Campaigns</h3>
+        <p>Location-targeted structures built for HVAC, plumbing, roofing and electrical service areas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     WHY CHOOSE ME
+============================================================ -->
+<section id="why">
+  <div class="wrap">
+    <div class="why-grid">
+      <div data-reveal>
+        <div class="why-photo">
+          <img src="profile.png" alt="Masud Rana, Google Ads Specialist (PPC Masud)" loading="lazy" width="862" height="803" />
+        </div>
+        <div class="why-photo-badge">Masud Rana — PPC Masud</div>
+      </div>
+
+      <div data-reveal>
+        <span class="eyebrow">Why Choose Me</span>
+        <h2 style="font-size: clamp(24px, 3.2vw, 32px); margin-top: 14px; margin-bottom: 28px; max-width: 32ch;">Built for HVAC & home-service accounts, not general "PPC management."</h2>
+
+        <div class="why-points">
+          <div class="why-point">
+            <span class="wp-num">01</span>
+            <div>
+              <h3>14+ years of operations experience, not just media buying</h3>
+              <p>Before Google Ads, I spent 14+ years running operations for a global manufacturing business — which is exactly why I treat every account like a system to be optimized, not a budget to be spent.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <span class="wp-num">02</span>
+            <div>
+              <h3>Home-service specialist, not a generalist agency</h3>
+              <p>HVAC is the primary focus, with plumbing, roofing, and electrical as secondary niches — so campaign structures, negative keywords, and seasonal patterns are already known, not researched from scratch.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <span class="wp-num">03</span>
+            <div>
+              <h3>Tracking is verified, not assumed</h3>
+              <p>Conversion Tracking, GTM, and GA4 are checked line by line before a campaign scales — so the numbers in your dashboard match the calls actually coming in.</p>
+            </div>
+          </div>
+          <div class="why-point">
+            <span class="wp-num">04</span>
+            <div>
+              <h3>One core promise</h3>
+              <p>I turn ad spend into booked jobs — not just clicks. That's the single metric every account is built around.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     RESULTS
+============================================================ -->
+<section id="results">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Results</span>
+      <h2>The numbers that matter — calls booked, not clicks collected.</h2>
+    </div>
+
+    <div class="results-grid">
+      <div class="result-card" data-reveal>
+        <div class="result-num">[ADD REAL STAT]</div>
+        <div class="result-lbl">Average Search ROAS</div>
+      </div>
+      <div class="result-card" data-reveal>
+        <div class="result-num">[ADD REAL STAT]</div>
+        <div class="result-lbl">Avg. Cost-Per-Lead Reduction</div>
+      </div>
+      <div class="result-card" data-reveal>
+        <div class="result-num">[ADD REAL STAT]</div>
+        <div class="result-lbl">Accounts Managed</div>
+      </div>
+      <div class="result-card" data-reveal>
+        <div class="result-num">[ADD REAL STAT]</div>
+        <div class="result-lbl">Service Calls Generated</div>
+      </div>
+    </div>
+
+    <div class="disclaimer-note" data-reveal>
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      <span>Figures above are placeholders pending real account data — replace before publishing. No performance numbers are shown as fact until verified.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PROCESS
+============================================================ -->
+<section id="process">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Process</span>
+      <h2>A repeatable system, not a one-off campaign launch.</h2>
+    </div>
+
+    <div class="process-grid">
+      <div class="process-card" data-reveal>
+        <div class="process-num">01</div>
+        <h3>Audit</h3>
+        <p>A full account audit to find exactly what's leaking spend.</p>
+      </div>
+      <div class="process-card" data-reveal>
+        <div class="process-num">02</div>
+        <h3>Rebuild</h3>
+        <p>Tighter targeting, match types, and bidding structure.</p>
+      </div>
+      <div class="process-card" data-reveal>
+        <div class="process-num">03</div>
+        <h3>Track</h3>
+        <p>Clean Conversion Tracking, GTM, and GA4 so every decision is backed by real data.</p>
+      </div>
+      <div class="process-card" data-reveal>
+        <div class="process-num">04</div>
+        <h3>Optimize</h3>
+        <p>Ongoing bid and budget management so cost-per-call trends down over time.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CASE STUDIES
+============================================================ -->
+<section id="case-studies">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Case Studies</span>
+      <h2>Real accounts, real fixes — details added as clients sign off.</h2>
+    </div>
+
+    <div class="cs-grid">
+      <div class="cs-card" data-reveal>
+        <span class="cs-tag">HVAC</span>
+        <h3>[ADD CASE STUDY — CLIENT/INDUSTRY, RESULT]</h3>
+        <p>Placeholder for a real HVAC account story: the starting problem, the fix, and the measurable result.</p>
+        <div class="cs-placeholder">Awaiting real case study data</div>
+      </div>
+      <div class="cs-card" data-reveal>
+        <span class="cs-tag">Plumbing</span>
+        <h3>[ADD CASE STUDY — CLIENT/INDUSTRY, RESULT]</h3>
+        <p>Placeholder for a real plumbing account story: the starting problem, the fix, and the measurable result.</p>
+        <div class="cs-placeholder">Awaiting real case study data</div>
+      </div>
+      <div class="cs-card" data-reveal>
+        <span class="cs-tag">Roofing</span>
+        <h3>[ADD CASE STUDY — CLIENT/INDUSTRY, RESULT]</h3>
+        <p>Placeholder for a real roofing account story: the starting problem, the fix, and the measurable result.</p>
+        <div class="cs-placeholder">Awaiting real case study data</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     TESTIMONIALS
+============================================================ -->
+<section id="testimonials">
+  <div class="wrap">
+    <div class="section-head" data-reveal style="margin-left:auto;margin-right:auto;text-align:center;">
+      <span class="eyebrow">Testimonials</span>
+      <h2>What clients say once the calls start coming in.</h2>
+      <p style="margin: 0 auto;">Placeholders shown below — swapped for real quotes with client permission.</p>
+    </div>
+
+    <div class="testi-wrap" data-reveal>
+      <div class="testi-track">
+        <div class="testi-slides" id="testi-slides">
+          <div class="testi-slide">
+            <p class="testi-quote">"[ADD REAL TESTIMONIAL HERE]"</p>
+            <div class="testi-name">[Client Name]</div>
+            <div class="testi-role">HVAC Contractor</div>
+          </div>
+          <div class="testi-slide">
+            <p class="testi-quote">"[ADD REAL TESTIMONIAL HERE]"</p>
+            <div class="testi-name">[Client Name]</div>
+            <div class="testi-role">Plumbing Business Owner</div>
+          </div>
+          <div class="testi-slide">
+            <p class="testi-quote">"[ADD REAL TESTIMONIAL HERE]"</p>
+            <div class="testi-name">[Client Name]</div>
+            <div class="testi-role">Roofing Contractor</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-nav">
+        <button class="testi-arrow" id="testi-prev" aria-label="Previous testimonial">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div class="testi-dots" id="testi-dots"></div>
+        <button class="testi-arrow" id="testi-next" aria-label="Next testimonial">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FAQ
+============================================================ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="section-head" data-reveal style="margin-left:auto;margin-right:auto;text-align:center;">
+      <span class="eyebrow">FAQ</span>
+      <h2>Straight answers, before you book a call.</h2>
+    </div>
+
+    <div class="faq-list" data-reveal>
+      <div class="faq-item">
+        <button class="faq-q"><span>Do you only work with HVAC companies?</span><span class="faq-plus"></span></button>
+        <div class="faq-a"><p>HVAC is the primary focus, with plumbing, roofing, and electrical as secondary niches — so campaign structures and seasonal patterns are already known, not researched from scratch.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>How is this different from a general marketing agency?</span><span class="faq-plus"></span></button>
+        <div class="faq-a"><p>No bundled "social + SEO + ads" packages — just the Google Ads stack (Search, Performance Max, Conversion Tracking, GTM, GA4) done correctly for home-service and clinic businesses.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>What's included in a Google Ads Audit?</span><span class="faq-plus"></span></button>
+        <div class="faq-a"><p>A full account review covering wasted spend, broken conversion tracking, weak match types, and a plain-English fix list you can act on.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Is there a minimum ad budget to work together?</span><span class="faq-plus"></span></button>
+        <div class="faq-a"><p>The best fit is businesses spending roughly $1,000+/month on Google Ads, with 3–30 employees, looking to generate more service calls.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>How do you track and prove results?</span><span class="faq-plus"></span></button>
+        <div class="faq-a"><p>Calls, form fills, and bookings are tracked as real conversions through GTM and GA4, checked line-by-line before scaling spend.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q"><span>Which countries do you work with?</span><span class="faq-plus"></span></button>
+        <div class="faq-a"><p>USA, Canada, Australia, and the UK.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTACT
+============================================================ -->
+<section id="contact">
+  <div class="wrap">
+    <div class="section-head" data-reveal>
+      <span class="eyebrow">Contact</span>
+      <h2>Book a free Google Ads audit.</h2>
+      <p>Pick a time below, or message directly on WhatsApp — either way, you'll hear back within one business day.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card" data-reveal>
+        <div class="contact-row">
+          <div class="contact-icn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E9E6C" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H8l-5 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <div>
+            <div class="contact-lbl">WhatsApp</div>
+            <a class="contact-val" href="https://wa.me/8801316193153?text=Hi%20Masud%2C%20I%27d%20like%20to%20talk%20about%20Google%20Ads%20for%20my%20business."
+               target="_blank" rel="noopener" onclick="trackCTA('whatsapp_contact')">+880 1316-193153</a>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="contact-icn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#E0985A" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>
+          </div>
+          <div>
+            <div class="contact-lbl">Email</div>
+            <a class="contact-val" href="mailto:tasmi.tas.dm@gmail.com">tasmi.tas.dm@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="contact-icn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3E7CFF" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg>
+          </div>
+          <div>
+            <div class="contact-lbl">Website</div>
+            <a class="contact-val" href="https://ppcmasud.github.io" target="_blank" rel="noopener">ppcmasud.github.io</a>
+          </div>
+        </div>
+        <div class="contact-row">
+          <div class="contact-icn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#F4EFE4" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="8" cy="8" r="1.2" fill="#F4EFE4"/></svg>
+          </div>
+          <div>
+            <div class="contact-lbl">Social</div>
+            <a class="contact-val" href="https://www.linkedin.com/in/ippcmasud/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="contact-val" href="https://www.facebook.com/ippcmasud" target="_blank" rel="noopener">Facebook</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="zcal-frame-wrap" data-reveal>
+        <script type="text/javascript" async src="https://static.zcal.co/embed/v1/embed.js" onload="trackCTA('zcal_widget_loaded')"></script>
+        <div class="zcal-inline-widget"><a href="https://zcal.co/i/NNZ-Erxd" onclick="trackCTA('zcal_click')">30 Minute Meeting - Schedule a meeting</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <a href="#top" class="wordmark">PPC <span>Masud</span></a>
+        <p class="footer-tagline">I turn ad spend into booked jobs — not just clicks.</p>
+        <div class="footer-social">
+          <a class="fs-icn" href="https://www.linkedin.com/in/ippcmasud/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.66H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+          </a>
+          <a class="fs-icn" href="https://www.facebook.com/ippcmasud" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.4-3H13.5V8.4c0-.87.24-1.46 1.49-1.46h1.6V4.35C16.3 4.3 15.3 4.2 14.1 4.2c-2.5 0-4.2 1.53-4.2 4.33v2.42H7.4v3h2.5V21h3.6z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Sections</h4>
+          <a href="#services">Services</a>
+          <a href="#why">Why Me</a>
+          <a href="#results">Results</a>
+          <a href="#process">Process</a>
+        </div>
+        <div class="footer-col">
+          <h4>More</h4>
+          <a href="#case-studies">Case Studies</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="mailto:tasmi.tas.dm@gmail.com">tasmi.tas.dm@gmail.com</a>
+          <a href="https://wa.me/8801316193153" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year"></span> PPC Masud. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     STICKY WHATSAPP BUTTON
+============================================================ -->
+<a id="wa-float" href="https://wa.me/8801316193153?text=Hi%20Masud%2C%20I%27d%20like%20to%20talk%20about%20Google%20Ads%20for%20my%20business."
+   target="_blank" rel="noopener" aria-label="Chat on WhatsApp" onclick="trackCTA('whatsapp_float')">
+  <svg viewBox="0 0 32 32" fill="#F4EFE4"><path d="M16 3C9.1 3 3.5 8.6 3.5 15.5c0 2.4.7 4.7 1.9 6.7L3 29l7-1.9c1.9 1.1 4 1.6 6 1.6 6.9 0 12.5-5.6 12.5-12.5S22.9 3 16 3zm7.3 17.7c-.3.9-1.7 1.7-2.4 1.8-.6.1-1.4.1-2.2-.1-.5-.2-1.2-.4-2-.8-3.5-1.5-5.8-5-6-5.3-.2-.3-1.4-1.9-1.4-3.6s.9-2.6 1.2-3c.3-.3.7-.4.9-.4h.7c.2 0 .5 0 .8.6.3.7 1 2.4 1.1 2.6.1.2.2.4 0 .7-.1.3-.2.4-.4.6l-.6.7c-.2.2-.4.4-.2.8.2.4 1 1.6 2.1 2.6 1.4 1.3 2.6 1.7 3 1.9.4.2.6.1.8-.1l1.2-1.4c.3-.3.5-.3.8-.2.3.1 2 1 2.4 1.1.4.2.6.3.7.4.1.2.1 1-.2 1.9z"/></svg>
+</a>
+
+<!-- ============================================================
+     MOBILE STICKY CTA BAR
+============================================================ -->
+<div id="mobile-cta-bar">
+  <a href="#contact" class="btn btn-copper" onclick="trackCTA('book_audit_mobile_bar')">Book Free Google Ads Audit</a>
+</div>
+
+<script>
+  // Footer year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Conversion tracking hook (GA4 placeholder — wire a real gtag() when GA4 is installed)
+  function trackCTA(label) {
+    if (typeof gtag === 'function') {
+      gtag('event', 'cta_click', { cta_label: label });
+    } else {
+      console.log('[CTA tracked — GA4 not wired yet]:', label);
+    }
+  }
+
+  // Certification badges (marquee, duplicated for seamless loop)
+  const CERTS = [
+    { name: "Google Ads Certified", dots: ["#4285F4","#EA4335"] },
+    { name: "Google Analytics (GA4) Certified", dots: ["#FBBC04","#34A853"] },
+    { name: "Google Tag Manager", dots: ["#4285F4","#FBBC04"] },
+    { name: "Performance Max Specialist", dots: ["#EA4335","#34A853"] },
+    { name: "Conversion Tracking", dots: ["#4285F4","#34A853"] },
+  ];
+  const track = document.getElementById('trust-track');
+  function buildCerts() {
+    return CERTS.map(c => `
+      <div class="cert-badge">
+        <span class="cert-dots"><span style="background:${c.dots[0]}"></span><span style="background:${c.dots[1]}"></span></span>
+        <span class="cert-name">${c.name}</span>
+      </div>`).join('');
+  }
+  track.innerHTML = buildCerts() + buildCerts();
+
+  // Mobile menu toggle
+  const mobileToggle = document.getElementById('mobile-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+  mobileToggle.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+    const expanded = mobileMenu.classList.contains('open');
+    mobileToggle.setAttribute('aria-expanded', expanded);
+  });
+  mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.remove('open')));
+
+  // Sticky navbar shrink
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
+  }, { passive: true });
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('[data-reveal]');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+
+  // FAQ accordion (one open at a time)
+  document.querySelectorAll('.faq-item').forEach(item => {
+    item.querySelector('.faq-q').addEventListener('click', () => {
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+
+  // Testimonials carousel
+  const slidesEl = document.getElementById('testi-slides');
+  const dotsEl = document.getElementById('testi-dots');
+  const slideCount = slidesEl.children.length;
+  let current = 0;
+  for (let i = 0; i < slideCount; i++) {
+    const dot = document.createElement('button');
+    dot.className = 'testi-dot' + (i === 0 ? ' active' : '');
+    dot.setAttribute('aria-label', 'Go to testimonial ' + (i + 1));
+    dot.addEventListener('click', () => goToSlide(i));
+    dotsEl.appendChild(dot);
+  }
+  function goToSlide(i) {
+    current = (i + slideCount) % slideCount;
+    slidesEl.style.transform = `translateX(-${current * 100}%)`;
+    dotsEl.querySelectorAll('.testi-dot').forEach((d, idx) => d.classList.toggle('active', idx === current));
+  }
+  document.getElementById('testi-prev').addEventListener('click', () => goToSlide(current - 1));
+  document.getElementById('testi-next').addEventListener('click', () => goToSlide(current + 1));
+  let testiTimer = setInterval(() => goToSlide(current + 1), 6000);
+  document.querySelector('.testi-wrap').addEventListener('mouseenter', () => clearInterval(testiTimer));
+  document.querySelector('.testi-wrap').addEventListener('mouseleave', () => { testiTimer = setInterval(() => goToSlide(current + 1), 6000); });
+</script>
+</body>
+</html>
